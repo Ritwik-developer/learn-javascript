@@ -1,0 +1,19 @@
+=>promise is an object.
+=>promise create-- const promiseOne = new Promise() promise ko variable me hold kar rhe hai
+=>promise callback leta hai
+=>resolve aur reject.
+=>asyn task db calls,network call,cryptography
+=>promise ko consume keliye .then() connection with resolve
+=> .then value return karta hai
+=>resolve() method use karne ke baad connect hoga .then se nhi toh .then() execute nhi hoga
+=>jaruri nhi hai promise ko variable me hold karna
+=>data aya ho network se, resolve me data pass karenge jada tar object hoga data.app array aur fn bhi pass karsakte hai
+=>resolve me jo parameter pass karenge wo .then() me miljayega
+=>reject keliye .catch()
+=>.then ki chaining me jo return hoga pahle then ka wo dusra then use karega
+=>.finally()
+=>promise ko consume karne keliye async aur await bhi use karsakte hai
+=> async fn hai toh ek respone ane wala hai
+=>response.json() ko bhi time lgta hai issliye await use karte hai
+=>fetch() pahle execute hota hai. 
+=>fetch watch again after 12:00

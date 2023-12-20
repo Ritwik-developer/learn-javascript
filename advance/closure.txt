@@ -1,0 +1,4 @@
+=>lexical scoping
+=>closure
+=>  return displayName; sirf fn nhi saare lexical scope jayega global variable bhi
+=>return

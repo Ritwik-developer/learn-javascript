@@ -1,0 +1,20 @@
+#color scheme switcher
+=>the goal is to change background color acc. to box color after clicking.
+=>select body and buttons using queryselector and queryselectorall
+=>nodelist me loop lga skte hai
+=>eventlistener listens the events use addEventListner,function parameter event object hota hai
+=>e.target means kis target se event aya hai
+=>e.target.id means target ki id
+
+#BMI generator -25:30
+=>form jb bhi submit hota hai toh get type ya post type se.submit hone ke url me chaljati hai .yeh default action ko rokna hai kyuki server nhi hai
+=>rokne keliye event ke upar method hai e.preventDefault()
+=>document.querySelector('#height').value string me milegi int me change karne keliye parseInt me wrap karde
+=>toFixed(2) means do decimal tk dekha do
+
+#digital clock-42:38
+=>toLocaleTimeString() is for time display 
+=>to run 1 sec,2 sec use setInterval(method)
+
+#guess the number-50:02
+=>guessSlot me user ke prevesious guesses ko lenge
